@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    z-index: 1;
+    position: fixed;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+
+    .navbar-collapse {
+        justify-content: flex-end;
+
+        .nav-link {
+            color: #fff !important;
+            font-size: 13px;
+        }
+
+        .dropdown {
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+
+                    .dropdown-item {
+                        &:hover {
+                            color: #9891fe;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#serverHero {
+    background-image: url(/assets/img/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%; 
+
+    .container {
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .serverHeroSectionText {
+                button {
+                    padding: 7px;
+                    border: none;
+                    border: white solid 1px;
+                    background-color: #fff;
+                    width: 150px;
+
+                    &:hover {
+                        color: #fff;
+                        background-color: transparent;
+                        cursor: pointer;
+                    }
+                }
+
+                p {
+                    color: #fff;
+                }
+
+                .improver {
+                    font-size: 59px;
+                    line-height: 1.2;
+                }
+            }
+        }
+    }
+}
+
+#robots {
+    background-color: #fefcff;
+    justify-content: center;
+    align-items: center;
+
+    .featured {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .card {
+        text-align: center;
+        background-color: #f9f9ff;
+        padding: 15px;
+        border: none;
+        display: flex;
+        align-items: center;
+
+        .mini-robot {
+            padding: 20px;
+            background-color: white !important;
+            height: 260px;
+            width: 230px;
+        }
+
+        button {
+            background: white;
+            border: none;
+            width: 170px;
+            height: 40px;
+
+            &:hover {
+                color: #fff;
+                background-color: #9891fe;
+                transition: 0.5s;
+            }
+        }
+
+    }
+}
+
+#pink-bg {
+    background-image: url(/assets/img/feature-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+    .someFeatures {
+        text-align: center;
+        color: #fff;
+    }
+
+    .card-icon {
+        background-color: #fff;
+        padding: 20px;
+
+        border-radius: 10px;
+
+        &:hover {
+            .icon-texts {
+                color: #9891fe;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+}
+#news-formm{
+    .container{
+        .latest-News{
+            text-align: center;
+        }
+        .photo-info{
+            button{
+                border: none;
+                padding: 5px 14px;
+                background-color: #9891fe;
+                color: #fff;
+                &:hover{
+                    background-color: #fff;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+footer{
+    background-image: url(/assets/img/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    p{
+        color: #fff;
+        span{
+            color: #9891fe;
+            padding: 3px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    .row{
+       
+    }
+    .from-photo{
+        width: 100%;
+    }
+.footer-end{
+    p{
+        font-size: 15px;
+    }
+}
+    .foother-icon{
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+        span{
+            color: #fff;
+            padding: 7px 13px;
+            background-color: #111111;
+            &:hover{
+                background-color: #9891fe;
+                cursor: pointer;
+            }
+
+        }
+    }
+}
